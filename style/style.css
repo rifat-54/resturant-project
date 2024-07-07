@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Work Sans", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn-cointer{
+    text-align: center;
+}
+.btn{
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    padding: 21px 32px 21px 32px;
+    border: none;
+    margin-top: 10px;
+    font-family:"Work Sans", sans-serif ;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    width: 279px;
+    height: 66px;
+}
+#hero{
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#hero .hero-content{
+    width: 578px;
+    height: 145px;
+    /* margin: 0 auto; */
+}
+#hero .hero-content .title{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+}
+#hero .hero-content .subtitle{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 27px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 10px;
+opacity: 0.8;
+}
+
+#hero .hero-content .description{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 13px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+
+/* second section */
+#card-box{
+    width: 100%;
+}
+#card-box .main-container{
+    width:1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px 0px;
+    
+}
+#card-box .title{
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+justify-content: center;
+
+}
+#card-box .image-box img{
+    width:280px;
+}
+
+#card-box .product{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 20px;
+    width: 100%;
+}
+#card-box .product .items{
+    width:280px;
+    margin: 20px;
+    padding: 30px;
+}
+#card-box .product .items .image-box{
+    width: 100%;
+    /* width: 100px;
+    height: 100px; */
+}
+
+#card-box .text-box{
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* margin: 0px auto; */
+}
+#card-box .text-box .item-name{
+    /* margin: 10px auto; */
+    font-size: 18px;
+}
+#card-box .text-box .item-box{
+    width: 100px;
+    height: 30px;
+    
+    margin: 5px auto;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 8px 25px;
+}
+
+#card-box .text-box .match{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px auto;
+}
+#card-box .text-box .match .last-detail{
+    margin: 8px auto;
+    
+}
+#card-box .text-box .match .last-detail .item-details{
+    margin: 0px auto;
+}
+#card-box .btn-option{
+    /* margin: 10px auto; */
+    display: flex;
+    justify-content: center;
+}
